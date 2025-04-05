@@ -1174,6 +1174,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px 12px 20px 10px;
+    width: 100%;
   }
 
   .hello1 h2 {
