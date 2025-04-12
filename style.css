@@ -1200,7 +1200,6 @@ text {
   color: #595959;
 }
 
-
 /* main_program styling */
 .main_program {
   display: flex;
@@ -1534,7 +1533,4 @@ text {
   background: url(./images/images/abtcardind2.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-/* styling partner section */
 }
