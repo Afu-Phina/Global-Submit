@@ -16,7 +16,7 @@
   .bottom_nav {
     display: flex;
     align-items: center;
-    gap: 25%;
+    gap: 70%;
   }
 
   .logo_desk {
@@ -78,7 +78,8 @@
     color: #000;
     font-size: 25px;
   }
-   .hero2 p   {
+
+  .hero2 p {
     font-size: 20px;
     margin: 0 20px -270px 0;
     color: #515151;
@@ -843,6 +844,11 @@
     display: none;
   }
 
+  footer img {
+    width: 150px;
+    margin: 10px;
+  }
+
   .logo_desk img {
     width: 100px;
   }
@@ -947,7 +953,13 @@
     background-position: center;
   }
 
-  .hero2 p   {
+  footer p {
+    font-size: 15px;
+    gap: 10px;
+    margin: 20px;
+  }
+
+  .hero2 p {
     font-size: 20px;
     margin: -200px 701px 0 100px;
     color: #515151;
@@ -955,6 +967,7 @@
     background-color: #f8f8f8;
     line-height: 25px;
   }
+
   .hero3 {
     margin: -80px 0 10px -600px;
     font-size: 25px;
@@ -978,8 +991,8 @@
     justify-content: center;
     flex-direction: column;
     background: url(./images/images/program_background.PNG);
-  padding: 50px 8px;
-  gap: 10px;
+    padding: 50px 8px;
+    gap: 10px;
   }
 
   .program_heading {
@@ -993,9 +1006,10 @@
     color: #fff;
     font-size: 25px;
   }
+
   .program_cards {
     display: flex;
-   gap: 5px;
+    gap: 5px;
     align-items: center;
     justify-content: center;
     margin: 10px 200px;
@@ -1008,11 +1022,11 @@
     align-items: center;
     flex-direction: column;
     height: 200px;
-   background-color: #3b3e45;
-   opacity: 55%;
-  gap: 8px;
-   padding: 5px;
-   text-align: center;
+    background-color: #3b3e45;
+    opacity: 55%;
+    gap: 8px;
+    padding: 5px;
+    text-align: center;
   }
 
   .program_card h3 {
@@ -1024,9 +1038,10 @@
   }
 
   .program_button button {
-   display: none;
+    display: none;
   }
-  .desk_prog_link{
+
+  .desk_prog_link {
     color: white;
     text-decoration: underline;
   }
@@ -1043,14 +1058,15 @@
     flex-direction: column;
     gap: 10px;
   }
-  .featured_cards{
+
+  .featured_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    
   }
+
   .featured_header h2 {
-    font-size: 24px
+    font-size: 24px;
   }
 
   .featured_card {
@@ -1059,7 +1075,6 @@
     align-items: center;
     gap: 10px;
     width: 350px;
-    
   }
 
   .featured_card img {
@@ -1082,11 +1097,12 @@
     color: #ff5438;
     font-size: 12px;
   }
-  .featured_desc .second{
+
+  .featured_desc .second {
     font-size: 11px;
-    
   }
-  .featured_button{
+
+  .featured_button {
     display: none;
   }
 
@@ -1106,51 +1122,46 @@
     width: 12px;
   }
 
-   /* styling partner section */
+  /* styling partner section */
 
-   .partner,
-   .partner_list {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     background-color: #3b3e45;
-     margin: 20px 10px;
-   }
- 
-   .partner h2 {
-     font-size: 25px;
-     line-height: 30px;
-     color: #fff;
-   }
-   .partner_list ul{
+  .partner,
+  .partner_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b3e45;
+    margin: 20px 10px;
+  }
+
+  .partner h2 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  .partner_list ul {
     display: flex;
     gap: 50px;
-   }
-   .partner_list ul li {
-     display: flex;
-     flex-direction: column;
-   }
- 
-   .partner_list ul li img {
-     width: 80px;
-     height: 60px;
-   }
- 
-   footer {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   }
-   footer img{
-    width: 150px;
-    margin: 10px;
-   }
-   footer p {
-    font-size: 15px;
-    gap: 10px;
-    margin: 20px;
   }
+
+  .partner_list ul li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partner_list ul li img {
+    width: 80px;
+    height: 60px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   /* ABOUT-PAGE STYLING */
 
   /* header styling */
@@ -1164,7 +1175,7 @@
     align-items: center;
   }
 
-         .hello1 {
+  .hello1 {
     display: flex;
     justify-items: center;
     flex-direction: column;
@@ -1256,38 +1267,5 @@
     background: url(./images/images/abtcardind2.png);
     background-size: cover;
     background-repeat: no-repeat;
-  }
-
-  /* styling partner section */
-
-  .partner,
-  .partner_list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #3b3e45;
-    margin: 25px 10px;
-  }
-
-  .partner h2 {
-    font-size: 25px;
-    line-height: 30px;
-    color: #fff;
-  }
-
-  .partner_list ul li {
-    display: flex;
-  }
-
-  .partner_list ul li img {
-    width: 80px;
-    height: 60px;
-  }
-
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
